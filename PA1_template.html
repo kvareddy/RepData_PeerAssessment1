@@ -290,8 +290,6 @@ title(xlab=&quot;steps per day&quot;)
 
 <h3>imputing missing data increase the average total daily number of steps as expected</h3>
 
-<h2>Are there differences in activity patterns between weekdays and weekends?</h2>
-
 <h2>Creating a new factor variable in the dataset with two levels - &ldquo;weekday&rdquo; and &ldquo;weekend&rdquo; indicating whether a given date is a weekday or weekend day.</h2>
 
 <pre><code class="r">bool &lt;- (weekdays(as.Date(data$date))==&quot;Sunday&quot;) | ((weekdays(as.Date(data$date))==&quot;Saturday&quot;))
