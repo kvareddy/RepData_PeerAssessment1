@@ -78,7 +78,7 @@ median(stepsPerDay)
 ## Impact of imputing missing data on the estimates of the total daily number of steps?
 ### imputing missing data increase the average total daily number of steps as expected
 
-## Are there differences in activity patterns between weekdays and weekends?
+
 
 ## Creating a new factor variable in the dataset with two levels - "weekday" and "weekend" indicating whether a given date is a weekday or weekend day.
 
